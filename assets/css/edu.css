@@ -1,0 +1,114 @@
+.login{
+    max-width: 100%;
+    width: auto;
+    height: 100vh;
+    background-image: linear-gradient(0, rgba(195, 34, 112, 0.6), rgba(195, 34, 112, 0.6)),
+    url("/assets/img/nick-morrison-FHnnjk1Yj7Y-unsplash\ 1.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+.login-logo{
+    display: flex;
+    width: 55%;
+    height: 100vh;
+}
+.login-logo__image{
+    margin: auto;
+}
+.login-form{
+    width: 45%;
+    height: 100vh;
+    background-color: azure;
+    padding: 84px 50px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.login-form__return-icon{
+    font-size: 1.8rem;
+    margin-right: 16px;
+}
+.login-form__return{
+    display: inline-flex;
+    align-items: center;
+    text-decoration-line: none;
+}
+.login-form__return-text{
+    font-size: 1.8rem;
+    color: #C32270;
+
+}
+.login-form__middle {
+    margin: auto;
+
+}
+
+.login-form__middle-img {
+    width: 100%;
+    height: auto;
+
+}
+
+.login-form__middle-text {
+    margin-top: 20px    ;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.login-form__final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 523px;
+    height: 100vh;
+  
+
+}
+
+.login-form__final-group {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 18px;
+    background-color: #fff;
+    border: 1px solid #bababa;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    min-width:100%;
+
+}
+
+.login-form__final-group__input {
+    
+    width: 100%;
+    height: 55px;
+    border: none;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+
+}
+
+.login-form__final-btn {
+    margin-top: 28px;
+    height: 50px;
+    min-width:100%;
+    background-color: #c32270;
+    border: 1px solid #c32270;
+    border-radius: 10vh;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.login-form__final-forgot {
+    margin-top: 28px;
+    color: var(--text-color);
+    font-size: 18px;
+
+}
